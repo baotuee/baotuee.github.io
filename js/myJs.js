@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " lát anh nhắn riêng cho em quà anh thích nhaaaa  ";
+    var text = " anh thích quà gì thì nhắn cho em nhaaaa  ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -121,11 +121,11 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiee <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Em biết anh muốn gì ròii :333 Iuuu anh  ',
-                text: "Giờ thì chờ gì nữa mà không inbox cho em đi nàoooooo",
+                title: 'Em biết màa, anh chọn quà xong ròi đúng hong?  ',
+                text: "Giờ thì inbox cho em thoyy",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'http://www.messenger.com/';
                   }
             })
         }
